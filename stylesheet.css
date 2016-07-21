@@ -1,0 +1,44 @@
+.flex-container {
+      width: 0 auto;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height:55px;
+      background-color: gainsboro;
+}
+.flex-container ul {
+      display: flex;
+
+}
+
+li {list-style: none}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex-container li {
+  padding: 5px;
+  font-size: 13px;
+  font-family: helvetica,arial,freesans,clean,sans-serif;
+}
+header {
+  height: 55px;
+  border: none;
+
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: "700"
+}
+.cell {
+  flex: 1 1 auto;
+  margin: 15px;
+  padding:10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
